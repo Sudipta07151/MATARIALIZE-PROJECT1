@@ -1,14 +1,16 @@
 body{
-    background-color: rgba(49, 47, 47, 0.116);
+    background-color: rgba(206, 35, 35, 0.856);
 }
 
 header{
-    background: url(./images/headerImg.jpg);
+    background: url(./images/webseries.jpg);
     background-position:center;
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 1000px;
+    position:relative;
 }
+
 @media screen and (max-width:1024px){
     header{
         min-height: 300px;
@@ -16,6 +18,20 @@ header{
         position: relative;
         background-position:top;
         background-position-y: 4rem;
+    }
+}
+.header_slogan{
+    color:white;
+    font-family:'Potta One', cursive;
+    position: absolute;
+    top:20rem;
+}
+
+@media screen and (max-width:1024px){
+    .header_slogan{
+        position: unset;
+        font-size: 2rem;
+        font-family:'Potta One', cursive;
     }
 }
 
@@ -67,4 +83,7 @@ i#prev:hover{
 .sidenav-trigger{
     padding-right:0.4rem ;
     padding-left:0.4rem ;
+}
+.webseries{
+    overflow:hidden;
 }

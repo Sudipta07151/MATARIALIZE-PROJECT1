@@ -42,4 +42,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   });
 
-
+  $("h2").css({
+    "font-family": 'Yusei Magic',
+    "color": "white"
+  })
